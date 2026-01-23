@@ -1,0 +1,24 @@
+class Solution:
+    def moveZeroes(self, nums: list[int]) -> None:
+        j = -1
+        for i in range(len(nums)):
+            if nums[i] == 0:
+                j = i
+                break
+        
+        if j == -1:
+            return
+
+        for i in range(j+1, len(nums)):
+            if nums[i] != 0:
+                nums[i], nums[j] = nums[j], nums[i]
+                j += 1
+
+    def applyOperations(self, nums: list[int]) -> list[int]:
+        for i in range(len(nums) - 1):
+            if nums[i] == nums[i + 1] and nums[i] != 0:
+                nums[i] *= 2
+                nums[i + 1] = 0
+        self.moveZeroes(nums)
+
+        return nums  

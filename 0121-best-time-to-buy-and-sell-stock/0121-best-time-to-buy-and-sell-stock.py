@@ -1,16 +1,12 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        i = 0
-        j = 0
-        min = prices[0]
-        maxi = prices[0]
-        maxRevenue = 0
-        for i in range(1, len(prices)):
-            if prices[i] < prices[j]:
-                min = prices[i]
-                j = i
-                maxi = prices[j]
-            if prices[i] > maxi:
-                maxi = prices[i]
-            maxRevenue = max(maxRevenue, maxi - min)
-        return maxRevenue
+        if not prices:
+            return 0
+        min_price = prices[0]
+        max_revenue = 0
+        for price in prices:
+            if price < min_price:  # Obtained a new minimum price to buy
+                min_price = price
+            elif price - min_price > max_revenue: # def price is greater than min_price, just calculate the revenue obtained and update if greater
+                max_revenue = price - min_price
+        return max_revenue

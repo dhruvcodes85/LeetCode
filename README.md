@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0031-next-permutation](https://github.com/dhruvcodes85/LeetCode/tree/main/0031-next-permutation/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/dhruvcodes85/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvcodes85/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -15,9 +16,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0073-set-matrix-zeroes](https://github.com/dhruvcodes85/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvcodes85/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvcodes85/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0073-set-matrix-zeroes](https://github.com/dhruvcodes85/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 <!---LeetCode Topics End-->

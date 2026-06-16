@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/dhruvcodes85/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dhruvcodes85/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0118-pascals-triangle](https://github.com/dhruvcodes85/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
+| [0119-pascals-triangle-ii](https://github.com/dhruvcodes85/LeetCode/tree/main/0119-pascals-triangle-ii/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvcodes85/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvcodes85/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Two Pointers
@@ -49,4 +50,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/dhruvcodes85/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
+| [0119-pascals-triangle-ii](https://github.com/dhruvcodes85/LeetCode/tree/main/0119-pascals-triangle-ii/) | Easy |
 <!---LeetCode Topics End-->

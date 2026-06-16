@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/dhruvcodes85/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/dhruvcodes85/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/dhruvcodes85/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0118-pascals-triangle](https://github.com/dhruvcodes85/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/dhruvcodes85/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvcodes85/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Two Pointers
@@ -44,4 +45,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/dhruvcodes85/LeetCode/tree/main/0560-subarray-sum-equals-k/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0118-pascals-triangle](https://github.com/dhruvcodes85/LeetCode/tree/main/0118-pascals-triangle/) | Easy |
 <!---LeetCode Topics End-->

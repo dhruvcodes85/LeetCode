@@ -1,13 +1,38 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
-        mpp = {}
+        cnt1 = 0
+        cnt2 = 0
         ans = []
-        n = len(nums)
-        for i in nums:
-            mpp[i] = mpp.get(i, 0) + 1
-        
-        for ele, cnt in mpp.items():
-            if cnt > n/3:
-                ans.append(ele)
+        ele1 = -float("inf")
+        ele2 = -float("inf")
+        for i in range(len(nums)):
+            if cnt1 == 0 and nums[i] != ele2:
+                cnt1 += 1
+                ele1 = nums[i]
+            elif cnt2 == 0 and nums[i] != ele1:
+                cnt2 += 1
+                ele2 = nums[i]
+            elif ele1 == nums[i]:
+                cnt1 += 1
+            elif ele2 == nums[i]:
+                cnt2 += 1
+            else:
+                cnt1 -= 1
+                cnt2 -= 1
 
+        ## Give a check
+        cnt1 = 0
+        cnt2 = 0
+        for i in range(len(nums)):
+            if nums[i] == ele1:
+                cnt1 += 1
+            if nums[i] == ele2:
+                cnt2 += 1
+
+        if cnt1 > (len(nums) / 3):
+                ans.append(ele1)
+            
+        if cnt2 > (len(nums) / 3):
+                ans.append(ele2)
+            
         return ans

@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/dhruvcodes85/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/dhruvcodes85/LeetCode/tree/main/0031-next-permutation/) | Medium |
 | [0048-rotate-image](https://github.com/dhruvcodes85/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/dhruvcodes85/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/dhruvcodes85/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/dhruvcodes85/LeetCode/tree/main/0031-next-permutation/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -56,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/dhruvcodes85/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0229-majority-element-ii](https://github.com/dhruvcodes85/LeetCode/tree/main/0229-majority-element-ii/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
